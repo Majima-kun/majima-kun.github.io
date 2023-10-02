@@ -6,6 +6,7 @@
 
 body {
     display: flex;
+    position: relative;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
@@ -121,16 +122,16 @@ ul a:hover {
 /* footer */
 footer {
     background: #111;
-    position: fixed;
+    left: 0;
+    right: 0;
     bottom: 0;
     width: 100%;
+    margin-top: auto;
     padding-top: 40px;
     color: #fff;
-    z-index: -1;
 }
 
 .footer-content {
-    position: absolute;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -160,7 +161,7 @@ footer {
 
 .socials {
     list-style: none;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
@@ -168,6 +169,7 @@ footer {
 
 .socials li {
     margin: 0 10px;
+    cursor: pointer;
 }
 
 .socials a {
@@ -186,7 +188,8 @@ footer {
 
 .footer-bottom {
     background: #000;
-    width: 100vw;
+    bottom: 0;
+    width: 100%;
     padding: 20px 0;
     text-align: center;
 }
