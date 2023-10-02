@@ -29,6 +29,7 @@ a {
     position: fixed;
     width: 100%;
     top: 0;
+    border-radius: 50px;
 }
 
 .header_content {
