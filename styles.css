@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 5;
     box-sizing: border-box;
 }
 
@@ -9,7 +9,6 @@ body {
     overflow-x: hidden;
     flex-direction: column;
     min-height: 100vh;
-    margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #e8f0f7;
     padding-top: 60px;
@@ -155,21 +154,24 @@ footer {
 }
 
 .footer-content p {
-    max-width: 500px;
+    max-width: 400px;
     margin: 10px auto;
+    padding: 1px;
     line-height: 28px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .socials {
+    display: contents;
     list-style: none;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    margin: 1rem 0 1rem 0;
 }
 
 .socials li {
     margin: 0 10px;
+    padding: 10px;
 }
 
 .socials a {
@@ -195,7 +197,8 @@ footer {
 }
 
 .footer-bottom p {
-    font-size: 14px;
+    padding: 10px;
+    font-size: 12px;
     word-spacing: 2px;
     text-transform: capitalize;
 }
