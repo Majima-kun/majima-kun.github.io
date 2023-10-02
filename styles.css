@@ -198,11 +198,7 @@ footer {
 .footer-bottom p {
     display: block;
     padding-top: 20px;
-    font-size: 12px;
+    font-size: 9px;
     word-spacing: 2px;
     text-transform: capitalize;
-}
-
-@media (max-width: 650px) {
-    
 }
