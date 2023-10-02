@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    font-family: 'Montserrat+Alternates';
+    font-family: 'Montserrat', sans-serif;
     background-color: #e8f0f7;
     padding-top: 60px;
 }
@@ -43,7 +43,7 @@ a {
 .logo {
     color: #fff;
     font-size: 23px;
-    letter-spacing: -1.5px;
+    letter-spacing: 1px;
     font-weight: 500;
 }
 
